@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f5f2" />
+    <title>오답노트 | 보내기 전, 한 번만 더</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="오답노트 홈">
+          <span class="brand-mark" aria-hidden="true">↗</span>
+          <span>오답노트</span>
+          <span class="brand-en">ERROR LOG</span>
+        </a>
+        <div class="top-note"><span class="status-dot"></span> private by default</div>
+      </header>
+
+      <main id="top">
+        <section class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">MESSAGE REWRITE TOOL <span>✦</span></p>
+            <h1>보내기 전,<br /><em>한 번만</em> 더.</h1>
+            <p class="hero-description">말하고 싶은 건 분명한데,<br />괜히 오해받을까 고민될 때.</p>
+          </div>
+          <div class="hero-aside">
+            <div class="orbit" aria-hidden="true">
+              <span class="orbit-label">less awkward<br />more you</span>
+              <span class="orbit-arrow">↗</span>
+            </div>
+            <p>친구에게 보낼 말을<br />당신다운 문장으로 다듬어요.</p>
+          </div>
+        </section>
+
+        <section class="composer-panel" aria-labelledby="composer-title">
+          <div class="section-heading">
+            <div>
+              <span class="step-number">01</span>
+              <h2 id="composer-title">지금 보내려던 말</h2>
+            </div>
+            <span class="character-count" id="characterCount">0 / 500</span>
+          </div>
+          <div class="textarea-wrap">
+            <textarea id="messageInput" maxlength="500" placeholder="친구에게 보내려던 말을 적어보세요.
+예) 너 왜 어제 연락 안 했어? 좀 서운했어."></textarea>
+            <span class="textarea-corner" aria-hidden="true">⌁</span>
+          </div>
+          <div class="composer-footer">
+            <p class="helper-text"><span class="sparkle">✦</span> 의미는 그대로, 말투만 더 자연스럽게</p>
+            <button class="primary-button" id="rewriteButton" type="button">
+              <span>오답노트 돌려보기</span><span class="button-arrow">↗</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="results-section" id="resultsSection" aria-live="polite" hidden>
+          <div class="results-heading">
+            <div>
+              <span class="step-number">02</span>
+              <h2>이 말, 이렇게 바꿔볼 수 있어요</h2>
+            </div>
+            <p class="results-caption">같은 마음, 다른 온도</p>
+          </div>
+
+          <div class="analysis-strip" id="analysisStrip"></div>
+          <div class="result-cards" id="resultCards"></div>
+          <button class="reset-button" id="resetButton" type="button">다른 문장 다시 써보기 <span>↗</span></button>
+        </section>
+      </main>
+
+      <footer class="footer"><span>오답노트</span><span>당신의 말이 더 잘 닿기를.</span><span>© 2024 ERROR LOG</span></footer>
+    </div>
+    <div class="toast" id="toast" role="status"></div>
+    <script src="app.js"></script>
+  </body>
+</html>

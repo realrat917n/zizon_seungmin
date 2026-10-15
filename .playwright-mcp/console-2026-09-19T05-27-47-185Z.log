@@ -1,0 +1,5 @@
+[     121ms] [INFO] [preview-bridge] v1.0.0 @ https://ck84uamsdzxrhq6b.jitda.io/__preview-bridge.js:1
+[    5783ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://ck84uamsdzxrhq6b.jitda.io/api/analyze:0
+[    5786ms] [ERROR] AI analysis request failed: Error: analysis_request_failed_429
+    at requestAnalysis (https://ck84uamsdzxrhq6b.jitda.io/app.js:19:21)
+    at async HTMLButtonElement.<anonymous> (https://ck84uamsdzxrhq6b.jitda.io/app.js:58:24) @ https://ck84uamsdzxrhq6b.jitda.io/__preview-bridge.js:1

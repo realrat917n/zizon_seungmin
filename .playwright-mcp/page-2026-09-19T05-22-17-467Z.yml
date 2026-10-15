@@ -1,0 +1,49 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "오답노트 홈" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e5]: ↗
+        - generic [ref=e6]: 오답노트
+        - generic [ref=e7]: ERROR LOG
+      - generic [ref=e8]: private by default
+    - main [ref=e10]:
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: MESSAGE REWRITE TOOL ✦
+        - heading "보내기 전, 한 번만 더." [level=1] [ref=e14]:
+          - text: 보내기 전,
+          - emphasis [ref=e15]: 한 번만
+          - text: 더.
+        - paragraph [ref=e16]:
+          - text: 말하고 싶은 건 분명한데,
+          - text: 괜히 오해받을까 고민될 때.
+      - region "지금 보내려던 말" [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - text: "01"
+            - heading "지금 보내려던 말" [level=2] [ref=e20]
+          - generic [ref=e21]: 21 / 500
+        - generic [ref=e22]:
+          - textbox "친구에게 보내려던 말을 적어보세요. 예) 너 왜 어제 연락 안 했어? 좀 서운했어." [ref=e23]:
+            - /placeholder: "친구에게 보내려던 말을 적어보세요.\n예) 너 왜 어제 연락 안 했어? 좀 서운했어."
+            - text: 방금 급식 먹었는데 오늘은 좀 괜찮더라
+          - generic [ref=e24]: ⌁
+        - generic [ref=e25]:
+          - paragraph [ref=e26]: ✦ 의미는 그대로, 말투만 더 자연스럽게
+          - button "오답노트 돌려보기 ↗" [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: 오답노트 돌려보기
+            - generic [ref=e29]: ↗
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - text: "02"
+          - heading "이 말, 이렇게 바꿔볼 수 있어요" [level=2] [ref=e37]
+        - generic [ref=e58]:
+          - generic [ref=e59]: ●
+          - strong [ref=e60]: 분석 실패
+          - generic [ref=e61]: AI 분석에 실패했어요. 잠시 후 다시 시도해주세요.
+        - button "다른 문장 다시 써보기 ↗" [ref=e57] [cursor=pointer]
+    - contentinfo [ref=e30]:
+      - generic [ref=e31]: 오답노트
+      - generic [ref=e32]: 당신의 말이 더 잘 닿기를.
+      - generic [ref=e33]: © 2024 ERROR LOG
+  - status

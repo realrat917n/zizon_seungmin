@@ -1,0 +1,9 @@
+[     159ms] [INFO] [preview-bridge] v1.0.0 @ https://ck84uamsdzxrhq6b.jitda.io/__preview-bridge.js:1
+[    5905ms] [ERROR] Failed to load resource: the server responded with a status of 502 () @ https://ck84uamsdzxrhq6b.jitda.io/api/analyze:0
+[    5906ms] [ERROR] AI analysis request failed: Error: analysis_request_failed_502
+    at requestAnalysis (https://ck84uamsdzxrhq6b.jitda.io/app.js:19:21)
+    at async HTMLButtonElement.<anonymous> (https://ck84uamsdzxrhq6b.jitda.io/app.js:58:24) @ https://ck84uamsdzxrhq6b.jitda.io/__preview-bridge.js:1
+[    9108ms] [ERROR] Failed to load resource: the server responded with a status of 502 () @ https://ck84uamsdzxrhq6b.jitda.io/api/analyze:0
+[    9109ms] [ERROR] AI analysis request failed: Error: analysis_request_failed_502
+    at requestAnalysis (https://ck84uamsdzxrhq6b.jitda.io/app.js:19:21)
+    at async HTMLButtonElement.<anonymous> (https://ck84uamsdzxrhq6b.jitda.io/app.js:58:24) @ https://ck84uamsdzxrhq6b.jitda.io/__preview-bridge.js:1
